@@ -1,0 +1,226 @@
+* {
+	font-family: arial,sans-serif;
+	margin:0px;
+	padding:0px;
+}
+body {
+	width:auto;
+	margin:auto;
+	border:none;
+}
+li {
+	list-style:none;
+	margin:0px;
+}
+a {
+	text-decoration:none;
+}
+*:focus {
+	outline:1px solid #009688;
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+	background:#009688;
+}
+
+::selection {
+    color: white;
+	background:#009688;
+}
+/* Login Form Design starts here. */
+.login-form li {
+	list-style:none;
+	margin:20px 0px;
+	margin-left:40px;
+}
+.login-box {
+	width:500px;
+	margin:auto;
+	margin-top:10%;
+	border:none;
+	background-image:  url("index.jpg"); 
+		background-size: cover; 
+}
+.login-box h1 {
+	text-align:center;
+
+	color:rgb(235, 63, 25);
+	font-weight:normal;
+}
+label {
+	margin:0px 0px;
+	font-size:14px;
+}
+.label-block {
+	display:inline-block;
+	width:100px;
+}
+.input-box {
+	display:inline-block;
+	margin:5px 0px;
+}
+.input-box input {
+	width:200px;
+	padding:5px 5px;
+	margin:auto;
+}
+.input-box textarea {
+	width:200px;
+	height:75px;
+	padding:5px 5px;
+}
+.input-box select {
+	padding:5px 2px;
+	width:200px;
+	margin:auto;
+}
+.submit_button {
+	font-size:16px;
+	margin-top:20px;
+	margin-right:20px;
+	padding:6px 10px;
+	background-color:#009688;
+	border:none;
+	color:white;
+}
+.submit_button:hover,.submit_button:focus {
+	cursor:pointer;
+	color:black;
+	background:#32ab9f;
+}
+.error_message {
+	margin-left:5px;
+	color:red;
+}
+.confirm_message {
+	margin-left:5px;
+	color:green;
+}
+/* Login Form Design ends here. */
+
+
+
+/* Design Admin page starts here. */
+header {
+	background-image:  url("med_supplies.jpg");
+	shape-margin: circle;
+	height:150px;
+	margin:0px auto;
+}
+header h1 {
+	text-align:center;
+	line-height:100px;
+	color:rgb(231, 15, 15);
+	font-size:50px;
+	font-weight:italic;
+}
+nav {
+	margin:0px;
+	text-align:center;
+	background-image:  url("med_login.jpg"); 
+	border-bottom:none;
+}
+nav a {
+	color:black;
+	display:inline-block;
+	padding:10px 20px;
+}
+nav a:hover {
+	background-color:#009688;
+	color:white;
+	<bg-repeat: no-repeat, repeat>#
+}
+.table_mainWrapper {
+	width:1200px;
+	border-spacing:0px;
+}
+#td_aside {
+	background-image:  url("med_login.jpg"); 
+		
+	vertical-align:top;
+	width:200px;
+	border-right:2px solid #ccc;
+}
+aside a {
+	color:rgb(12, 12, 12);
+	display:block;
+	padding:10px 20px;
+}
+aside a:hover {
+	background-color:#009688; /* #d6d6d6 */
+	color:white;
+}
+#td_section {
+	vertical-align:top;
+}
+.userInfoBar {
+	width:1000px;
+	background-color:#736af8;
+}
+section {
+	width:1000px;
+	padding:10px;
+	padding-bottom:40px;
+}
+section h1 {
+	margin-bottom:10px;
+	font-weight:normal;
+	color:rgb(101, 240, 9);
+	font-size: 26px;
+}
+section p {
+	width:800px;
+	line-height: 25px;
+}
+article {
+	margin-top:20px;
+	margin-bottom:50px;
+}
+article h2 {
+	margin-bottom:5px;
+	font-weight:normal;
+	color:#080808;
+	font-size: 20px;
+}
+table {
+	border-collapse: collapse;
+}
+.table_displayData td, .table_displayData th {
+	border:1px solid #ddd;
+	padding: 8px 10px;
+	text-align: left;
+}
+.table_displayData th {
+	background-color:rgba(255, 248, 248, 0.897);
+	color:#333;
+}
+.table_invoiceFormat th {
+	background-color:#eee;
+	color:#333;
+	padding: 7px 25px;
+}
+.table_invoiceFormat tr {
+	border:none;
+}
+.table_invoiceFormat td,.table_invoiceFormat tr {
+	padding: 5px 25px;
+	text-align: left;
+}
+.table_infoFormat {
+	margin:20px 5px 25px;
+}
+.table_infoFormat  td {
+	padding:5px 5px 0px 0px;
+}
+.table_infoFormat  td:first-child {
+	font-weight:bold;
+}
+footer {
+	clear:both;
+	padding:1px;
+	font-size:10px;
+	background-color:#55584e75; /* #009688 */
+	color:white;
+	text-align:center;
+}
+/* Design of Admin page ends here. */
