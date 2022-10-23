@@ -1,2 +1,2 @@
-# scm
-A final year project on supply chain management for bakery products.
+# MedSMS
+A final year project on medical supplies management system.
